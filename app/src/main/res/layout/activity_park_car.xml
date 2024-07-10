@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ParkCarActivity"
+    android:orientation="vertical"
+    android:background="@color/lavender"
+    android:paddingTop="30dp">
+
+    <EditText
+        android:id="@+id/driverName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:hint="Driver Name"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/purple_200"
+        android:textStyle="bold|italic"
+    />
+
+    <EditText
+        android:id="@+id/driverNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:hint="Driver Number"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/purple_200"
+        android:textStyle="bold|italic"
+
+        />
+
+    <EditText
+        android:id="@+id/numberPlate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:hint="Number Plate"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/purple_200"
+        android:textStyle="bold|italic"
+        />
+
+    <EditText
+        android:id="@+id/vehicleType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:hint="Vehicle Type"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/purple_200"
+        android:textStyle="bold|italic"
+        />
+
+    <EditText
+        android:id="@+id/parkingArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:hint="Parking Area"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/purple_200"
+        android:textStyle="bold|italic"
+        />
+    <EditText
+        android:id="@+id/amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:hint="Amount"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/purple_200"
+        android:textStyle="bold|italic"
+        />
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:hint="Date"
+        android:background="@color/purple_200"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textStyle="bold|italic"
+        />
+
+    <Button
+        android:id="@+id/parkBtn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Park Your Vehicle!"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        />
+
+</LinearLayout>

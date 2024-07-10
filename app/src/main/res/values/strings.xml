@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">SmartSylhet</string>
+
+    <string-array name="Learn_Sylheti">
+
+        <item>ভালা আছো নি = কেমন আছেন</item>
+        <item>ওবাই = এইদিকে</item>
+        <item>হুনো = শুনেন</item>
+        <item>ফাউরিলাইছি = ভুল গিয়েছি</item>
+        <item>আরম্ব = শুরু </item>
+        <item>দমলউ = অপেক্ষা করুন</item>
+        <item>কিতা= কী</item>
+        <item>মাত = কথা</item>
+        <item>হুরো = ছোট </item>
+        <item>ফুয়া=ছেলে </item>
+        <item>ফুরি = মেয়ে </item>
+        <item>কউক্কা = বলা</item>
+        <item>খাওক্ষা = খানি খাওয়া </item>
+        <item>তুকাঊ = খোজা</item>
+        <item>লায় লায় = ধীরে ধীরে</item>
+        <item>আখতা = হঠাৎ </item>
+        <item>কুন খানো = কোথায় </item>
+        <item>উন্দাল = চুলা</item>
+        <item>আন্দু = মিথ্যা</item>
+
+
+
+
+    </string-array>
+</resources>

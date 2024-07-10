@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "123461980194",
+    "firebase_url": "https://smartsylhet-70104-default-rtdb.firebaseio.com",
+    "project_id": "smartsylhet-70104",
+    "storage_bucket": "smartsylhet-70104.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123461980194:android:c82f62ae180e836921fa7b",
+        "android_client_info": {
+          "package_name": "com.example.smartsylhet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "123461980194-tut1rqgbu5vd6dbdvq0lt8fmkg9oq7ra.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smartsylhet",
+            "certificate_hash": "bb06cc6489fd3fca84d00f9e90eac36818b15fab"
+          }
+        },
+        {
+          "client_id": "123461980194-itp12pr9usv3fsm11f6hpsshj1uf9vav.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsMUn1C6xw9mOpm-SlTA6BBXoBjziVCq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "123461980194-itp12pr9usv3fsm11f6hpsshj1uf9vav.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ExploreActivity"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="EXPLORE SYLHET"
+            android:id="@+id/exploreSylhet"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="75dp"
+            android:layout_marginBottom="35dp"
+            android:background="@color/teal_700"
+            android:textColor="@color/white">
+
+        </TextView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="1in"
+            android:layout_margin="5dp"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="10dp">
+
+            <ImageView
+                android:layout_width="1in"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                android:background="@color/white"
+                android:elevation="3dp"
+                android:src="@drawable/shadapathor">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="1in"
+                android:text="Place-Shadapathor\nLocation-Bholagonj"
+                android:textSize="23sp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/purple_500"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp">
+
+            </TextView>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="1in"
+            android:layout_margin="5dp"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="10dp">
+
+            <ImageView
+                android:layout_width="1in"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                android:background="@color/white"
+                android:elevation="3dp"
+                android:src="@drawable/ratargul">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="1in"
+                android:text="Place-Ratargul\nLocation-Gowainhat"
+                android:textSize="23sp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/purple_500"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp">
+
+            </TextView>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="1in"
+            android:layout_margin="5dp"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="10dp">
+
+            <ImageView
+                android:layout_width="1in"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                android:background="@color/white"
+                android:elevation="3dp"
+                android:src="@drawable/mad">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="1in"
+                android:text="Place-Madhabkunda Waterfall\nLocation-Barlekha,Moulvibazar
+"
+                android:textSize="23sp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/purple_500"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp">
+
+            </TextView>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="1in"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="5dp">
+
+            <ImageView
+                android:layout_width="1in"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                android:background="@color/white"
+                android:elevation="3dp"
+                android:src="@drawable/tangu"></ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:paddingLeft="1in"
+                android:text="Place-Taguar Haor\nLocation-Tahirpur,Sunamgonj"
+                android:textColor="@color/purple_500"
+                android:textSize="23sp"
+                android:textStyle="bold|italic">
+
+            </TextView>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="1in"
+            android:layout_margin="5dp"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="10dp">
+
+            <ImageView
+                android:layout_width="1in"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                android:background="@color/white"
+                android:elevation="3dp"
+                android:src="@drawable/lakkatura">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="1in"
+                android:text="Place-Tea Garden\nLocation-Lakkatura"
+                android:textSize="23sp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/purple_500"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp">
+
+            </TextView>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="1in"
+            android:layout_margin="5dp"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="10dp">
+
+            <ImageView
+                android:layout_width="1in"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                android:background="@color/white"
+                android:elevation="3dp"
+                android:src="@drawable/jaf">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="1in"
+                android:text="Place-Jaflong\nLocation-Gowainhat Upazilla"
+                android:textSize="23sp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/purple_500"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp">
+
+            </TextView>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="1in"
+            android:layout_margin="5dp"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="10dp">
+
+            <ImageView
+                android:layout_width="1in"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                android:background="@color/white"
+                android:elevation="3dp"
+                android:src="@drawable/mazar">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="1in"
+                android:text="Place-Hazrat Shahjalal Mazar\nLocation-Dargah Mahallah"
+                android:textSize="23sp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/purple_500"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp">
+
+            </TextView>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="1in"
+            android:layout_margin="5dp"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="10dp">
+
+            <ImageView
+                android:layout_width="1in"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                android:background="@color/white"
+                android:elevation="3dp"
+                android:src="@drawable/lalakhal">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="1in"
+                android:text="Place-Lalakhal\nLocation-Jaintiapur"
+                android:textSize="23sp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/purple_500"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp">
+
+            </TextView>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="1in"
+            android:layout_margin="5dp"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="10dp">
+
+            <ImageView
+                android:layout_width="1in"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                android:background="@color/white"
+                android:elevation="3dp"
+                android:src="@drawable/bisnakandi">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="1in"
+                android:text="Place-Bichnakandi\nLocation-Guainhat"
+                android:textSize="23sp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/purple_500"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp">
+
+            </TextView>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="1in"
+            android:layout_margin="5dp"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="10dp">
+
+            <ImageView
+                android:layout_width="1in"
+                android:layout_height="1in"
+                android:layout_margin="5dp"
+                android:background="@color/white"
+                android:elevation="3dp"
+                android:src="@drawable/kean">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="1in"
+                android:text="Place-Kean Bridge\nLocation-Sylhet city"
+                android:textSize="23sp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/purple_500"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp">
+
+            </TextView>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <Button
+            android:id="@+id/exBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginTop="50dp"
+            android:textSize="20sp"
+            android:layout_marginBottom="30dp"
+            android:textAllCaps="false"
+            android:text="Search the locations in Map"/>
+    </LinearLayout>
+
+
+
+
+</ScrollView>

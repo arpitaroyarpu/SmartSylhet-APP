@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/purple_200"
+    tools:context=".ContactActivity">
+
+
+            <ImageView
+                android:id="@+id/desc_img"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="100dp"
+                android:src="@drawable/contact" />
+
+            <TextView
+        android:id="@+id/desc_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+        android:text="Developers"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/desc_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="15dp"
+        android:text="Muhammad Kawser Ahmed"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+
+        />
+
+    <Button
+        android:id="@+id/call"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:text="Tap To Call"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+
+        android:backgroundTint="@color/lavender"/>
+
+    <TextView
+        android:id="@+id/desc_desc1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="15dp"
+        android:text="Arpita Roy"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+
+        />
+
+    <Button
+        android:id="@+id/call1"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:text="Tap To Call"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+
+        android:backgroundTint="@color/lavender"/>
+
+    <TextView
+        android:id="@+id/desc_desc2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="15dp"
+        android:text="Progga Paromita Chokroborty"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+
+        />
+
+    <Button
+        android:id="@+id/call2"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:text="Tap To Call"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+
+        android:backgroundTint="@color/lavender"/>
+
+</LinearLayout>
